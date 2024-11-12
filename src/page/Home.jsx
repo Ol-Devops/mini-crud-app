@@ -4,8 +4,8 @@ import Footer from "../components/Footer";
 
 const Home = () => {
   return (
-    <div>
-      <div className="grid grid-cols-2 place-items-center mt-20">
+    <div className="">
+      <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center md:grid-cols-2 lg:grid-cols-3 mt-20">
         <Form />
         <ViewLogs />
       </div>

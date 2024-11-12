@@ -1,28 +1,27 @@
+import { BsCurrencyDollar } from "react-icons/bs";
+import { BsSortNumericUp } from "react-icons/bs";
 import { FaUser } from "react-icons/fa";
-import { AiOutlineMail } from "react-icons/ai";
-import { AiOutlineSearch } from "react-icons/ai";
 const Form = () => {
   return (
-    <div className="grid gap-y-6">
-      <h2 className="text-green-400 text-xl font-bold">CRUD FORM</h2>
+    <div className="h-full">
+      <h2 className="text-green-400 text-xl font-bold mb-10">CRUD FORM</h2>
 
-      <div className="w-10 grid gap-y-4">
-        <label className="input input-bordered flex items-center gap-2">
-          <input type="text" className="grow" placeholder="Search" />
-          <AiOutlineSearch />
-        </label>
-        <label className="input input-bordered flex items-center gap-2">
-          <AiOutlineMail />
-          <input type="text" className="grow" placeholder="Email" />
-        </label>
+      <div className="space-y-6 border-gray-600 px-6 border-2 py-10 rounded">
         <label className="input input-bordered flex items-center gap-2">
           <FaUser />
-
-          <input type="text" className="grow" placeholder="Username" />
+          <input type="text" className="grow" placeholder="Name" />
         </label>
-      </div>
+        <label className="input input-bordered flex items-center gap-2">
+          <BsSortNumericUp />
+          <input type="text" className="grow" placeholder="Age" />
+        </label>
+        <label className="input input-bordered flex items-center gap-2">
+          <BsCurrencyDollar />
 
-      <button className="btn btn-primary btn-sm">Submit</button>
+          <input type="text" className="grow" placeholder="Salary" />
+        </label>
+        <button className="btn btn-primary btn-sm">Submit</button>
+      </div>
     </div>
   );
 };
