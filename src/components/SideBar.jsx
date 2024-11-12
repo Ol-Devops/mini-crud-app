@@ -30,13 +30,13 @@ const SideBar = () => {
           </div>
           <div className="mx-2 flex-1 px-2">Mini CRUD APP</div>
           <div className="hidden flex-none lg:block">
-            <ul className="menu menu-horizontal">
+            <ul className="menu menu-horizontal ">
               {/* Navbar menu content here */}
               <li>
-                <a>Navbar Item 1</a>
+                <a>Main Dashboard</a>
               </li>
               <li>
-                <a>Navbar Item 2</a>
+                <a>Summary</a>
               </li>
             </ul>
           </div>
