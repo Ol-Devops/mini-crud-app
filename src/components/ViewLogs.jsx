@@ -3,7 +3,7 @@ const ViewLogs = () => {
     <div className="grid h-full">
       <h2 className="text-blue-400 text-xl font-bold">VIEW DATA</h2>
 
-      <ul className="border-2 border-yellow-400 rounded-lg p-4 w-60">
+      <ul className="border-2 border-yellow-300 rounded-lg p-4 w-60">
         <li>Sunday</li>
 
         <li>Monday</li>
