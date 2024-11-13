@@ -1,6 +1,6 @@
 const ViewLogs = () => {
   return (
-    <div className="">
+    <div className="mb-40">
       <h2 className="text-blue-400 text-xl font-bold mt-20 mb-8 sm:mt-0 sm:mb-10">
         VIEW DATA
       </h2>
