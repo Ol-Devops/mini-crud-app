@@ -5,6 +5,8 @@ const ViewLogs = () => {
         VIEW DATA
       </h2>
 
+      
+
       <ul className="border-2 border-yellow-400 rounded-lg p-4 w-60 md:w-80 mt-6 sm:mt-0">
         <li>Sunday</li>
 
